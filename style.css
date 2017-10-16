@@ -1,0 +1,40 @@
+
+* {margin:1px;
+    box-sizing: border-box;
+    text-decoration: none;
+   
+}
+
+body {direction:rtl;
+        text-align: right;
+        font-family: Arial;
+       }
+
+  
+  main {
+    width: 80%;
+    background-color: #eee;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 3px;
+  }
+  
+  main h1 {
+    padding-top: 30px;
+  }
+  
+  .main-img {
+    width: 80%;
+    margin: 0 auto;
+    background-color:white;
+  }
+  
+  .main-img > img {
+    width: 100%;
+  }
+  
+  .quotes {
+    text-align: left;
+    width: 60%;
+    margin: 0 auto;
+  }
