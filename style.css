@@ -6,35 +6,108 @@
 }
 
 body {direction:ltr;
-        text-align: left;
+        text-align: right;
+
     
        }
 
   
-  main {
-    width: 80%;
   
+  a 
+  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:white;
+    font-weight: bold;
   }
-  ul{ list-style: none;
-      position:absolute;
-      background-color: silver;
+  
+  .firstul{ 
+      
+      margin-top: -2px;
+      list-style: none;      
+      background-color: white;
+      background-image: url("images/header_bg.png");
       width:100%;
-      height: 90px;
-    
+      height: 105px;
+      
   }
 
+  header:after {   
+        content: "";
+        clear: both;
+        display: table;
 
-  li{
+}
+
+#searchbox{
+  
+  margin-top: 55px;
+  padding: 5px;
+}
+
+input 
+{
+margin: 25px;
+/*display:inline-block;*/
+top: 2px;
+right: 4px;
+width:126px;
+
+  font-size: 12px;
+
+}
+
+.firstul> li{ position: relative;
     float:right;
     border: 1px solid red;
+    /*border-image: url("images/menu_sep.png")  ;*/
+    
     margin-top: 55px;
     padding: 5px;
   }
 
   #logo 
-  { float: right;
-    margin-top: 10px;
-    width: 141.99px;
-    height: 92.99px;
+  { 
+    margin: 30px -5px 0px 5px;
+    right:2px;
+    padding: 0px;
+  }
+
+.row {  
+    list-style: none;      
     
+}
+
+.row> li{ position: relative;
+          float:right;
+          border: 200px solid transparent;
+          border-radius: 0px 0px 25px 0px;
+          background:url(images/Station.JPG) ;
+    
+  }
+
+
+.textInBox{float:right;
+border: 7px solid black;
+border-image: url("images/hp_tab_text_bg.png") 10 fill;
+width:248px;
+height: 97px;
+overflow: hidden;
+position: absolute;
+left:38px;
+bottom: 6px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+color:white;
+    
+  }
+
+
+.h3{width:228px;
+  height: 14px;
+}
+
+  p{
+    width:228px;
+    height: 52px;
   }
